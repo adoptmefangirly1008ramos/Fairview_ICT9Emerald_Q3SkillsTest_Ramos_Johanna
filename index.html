@@ -21,7 +21,7 @@
 
              .box {
                 width: 1200px;
-                height: 680px;
+                height: 820px;
                 background-color: white;
                 border-radius: 20px;
                 margin: 0 auto;
@@ -87,6 +87,15 @@
     <script>
 document.getElementById("instruct").innerHTML = "Fill out the form below to be able to register for an account. Make sure to input the correct information to avoid any problems.";
 </script>
+
+ <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px;">
+     <td><img width="100px" style="margin-left: 20px;">
+                <td><img style="width:100px; height:100px; margin-left: 20px;"src="https://i.pinimg.com/236x/1d/ec/e2/1dece2c8357bdd7cee3b15036344faf5.jpg" alt="anony" class="rounded-circle"></td>
+    <input type="file" class="form-control" style="width: 200px;">
+    <button type="submit" class="btn btn-primary">
+        Upload Photo
+    </button>
+  </div>
 <br>
     <div class="row">
         <div class="col">
@@ -127,18 +136,17 @@ document.getElementById("instruct").innerHTML = "Fill out the form below to be a
                 </label>
                 <br>
                 <br>
-                <button type="submit" class="btn btn-primary" style="margin-left: 20px;">Register</button>
+                <button type="submit" class="btn btn-primary" style="margin-left: 20px;" onclick="alert('You have officially registered')">
+                Register</button>
                 <button type="button" class="btn btn-primary" onclick="window.location.reload()"; >Cancel</button>
             </form>
 
             <br><br>
             
-                <input type="file">
-                <br><br>
-                <button type="submit" class="btn btn-primary" style="margin-left: 20px;">Upload Photo</button>
-                <td><img width="100px">
-                                 <td><img width="100px" height="100px"src="https://i.pinimg.com/236x/1d/ec/e2/1dece2c8357bdd7cee3b15036344faf5.jpg" alt="Mikasa Ackerman" class="rounded-circle mx-auto d-block"></td>
+      
 
+
+</div>
 
                
         
